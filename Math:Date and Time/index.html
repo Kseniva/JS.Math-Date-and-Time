@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link type="image/svg" href="assets/images/pic1.svg" rel="shortcut icon" />
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    <link rel="stylesheet" href="assets/styles/normalize.css" />
+    <title>Chat</title>
+  </head>
+  <body class="body">
+    <h1 class="header">Сервис комментариев со спам фильтром</h1>
+    <main class="main">
+      <div class="form">
+        <h2 class="form__header">Оставьте ваш комментарий</h2>
+        <div class="checkbox">
+          <p class="checkbox__header">Показывать ваше имя?</p>
+          <span class="checkbox__text">Да</span>
+          <input class="checkbox__option" id="yes" type="radio" name="option" />
+          <span class="checkbox__text">Нет</span>
+          <input class="checkbox__option" id="no" type="radio" name="option" />
+        </div>
+        <p class="form__inputheader">Введите ваше <span>ФИО</span></p>
+        <input type="text" class="form__inputname" />
+        <p class="form__inputheader">
+          Введите ссылку <span>вашего аватара</span>
+        </p>
+        <input type="text" class="form__inputlink" />
+        <p class="form__inputheader">Оставьте комментарий:</p>
+        <textarea name="commenttext" class="form__comment"></textarea>
+        <button class="button">Отправить</button>
+      </div>
+      <section class="chat">
+        <h2 class="chat__header">Чат</h2>
+        <div class="chat__commentsection">
+          <div class="chat__userpic"></div>
+          <p class="chat__username"></p>
+          <p class="chat__showcomment"></p>
+          <div class="chat__date"></div>
+        </div>
+      </section>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>

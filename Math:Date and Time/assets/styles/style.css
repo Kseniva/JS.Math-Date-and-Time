@@ -1,0 +1,92 @@
+.body {
+    background-color: black;
+}
+.header {
+    color: aliceblue;
+    margin-left: 1vw;
+}
+.main {
+    display: flex;
+    justify-content: space-around;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+.form__header, .chat__header {
+    color: #1f56ed;
+}
+.form__inputheader, .checkbox__header {
+color: aliceblue;
+}
+.checkbox {
+    display: flex;
+    flex-direction: row;
+}
+.checkbox__header {
+    margin-right: 3rem;
+}
+.checkbox__text {
+    color: aliceblue;
+    padding-top: 1rem;
+    padding-right: 1rem;
+}
+.checkbox__option, .checkbox__option {
+    margin-right: 1rem;
+    border-style: dotted;
+    border-color: #1f56ed;
+}
+.form__inputname {
+    width: 30vw;
+    background-color:black;
+    color: aliceblue;
+    border-style: dotted;
+    border-color: #1f56ed;
+}
+.form__inputlink {
+    width: 30vw;
+    background-color: black;
+    color: aliceblue;
+    border-style: dotted;
+    border-color: #1f56ed;
+}
+.form__comment {
+    height:  10vw;
+    width: 30vw;
+    background-color: black;
+    color: aliceblue;
+    border-style: dotted;
+    border-color: #1f56ed;
+}
+.button {
+    width: 10rem;
+    margin-top: 3rem;
+    background-color:  #1f56ed;
+    border-color: #1f56ed;
+    color: aliceblue;
+}
+.chat {
+    margin-left: 3rem;
+}
+.chat__commentsection {
+    display: grid;
+    grid-template-columns: 5% 47% 38%;
+    grid-template-rows: 10% 10%;
+    word-break: break-all;
+    gap: 2rem;
+}
+.chat__username {
+    color: aliceblue;
+}
+.chat__userpic {
+    max-width: 2rem;
+    margin-top: 0.5rem;
+}
+.chat__showcomment {
+    color: aliceblue;
+    grid-column: 2/3;
+}
+.chat__date {
+    color: aliceblue;
+}
